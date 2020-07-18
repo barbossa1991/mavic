@@ -100,6 +100,62 @@
   }
 }
 
+.products {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+  }
+  &__text {
+    max-width: 440px;
+    p {
+      margin-bottom: 30px;
+    }
+  }
+  &__slider-box {
+    position: relative;
+    padding-top: 110px;
+  }
+  &__slider {
+    max-width: 560px;
+  }
+  &__slider-text {
+    max-width: 285px;
+    position: absolute;
+    font-size: 24px;
+    line-height: 28px;
+    @extend %ubuntu-medium;
+    text-align: right;
+    bottom: 30px;
+    left: -250px;
+    z-index: 5;
+  }
+}
+
+.slider-btn {
+  padding: 16px 26px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  position: absolute;
+  bottom: -45px;
+  right: 0;
+  cursor: pointer;
+  z-index: 5;
+  svg {
+    stroke: #000;
+  }
+  &__left {
+    right: 60px;
+  }
+  &.slick-disabled {
+    background-color: #000;
+    svg {
+      stroke: #fff;
+    }
+  }
+}
+
 
 
 
