@@ -168,13 +168,56 @@
 .benefits {
   &__items {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    padding-left: 25px;
   }
   &__item {
     margin-bottom: 100px;
     display: flex;
     align-items: flex-end;
+    &:nth-child(even) {
+      margin-left: 40px;
+      transform: translateY(25px);
+    }
+  }
+  &__item-1 {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      height: 48px;
+      width: 245px;
+      background-image: url(../images/line-1.svg);
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      right: -56px;
+      top: 31px;
+    }
+  }
+  &__item-3 {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      height: 62px;
+      width: 463px;
+      background-image: url(../images/line-2.svg);
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      right: -54px;
+      top: -70px;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      height: 42px;
+      width: 254px;
+      background-image: url(../images/line-3.svg);
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      right: -55px;
+      top: 50px;
+    }
   }
   &__item-num {
     font-size: 36px;
