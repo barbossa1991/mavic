@@ -179,6 +179,12 @@
       margin-left: 40px;
       transform: translateY(25px);
     }
+    &:nth-child(3) {
+      margin-left: 30px;
+    }
+    &:nth-child(4) {
+      margin-left: 60px;
+    }
   }
   &__item-1 {
     position: relative;
@@ -250,6 +256,29 @@
     margin-bottom: 10px;
   }
   &__info-text {
+    font-size: 15px;
+    line-height: 19px;
+    @extend %ubuntu-light;
+  }
+}
+
+.specification {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+
+  }
+  &__box {
+    max-width: 280px;
+  }
+  &__box-title {
+    font-size: 21px;
+    line-height: 28px;
+    @extend %ubuntu-bold;
+  }
+  &__box-text {
     font-size: 15px;
     line-height: 19px;
     @extend %ubuntu-light;
