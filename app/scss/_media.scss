@@ -1,0 +1,25 @@
+@media (max-width: 1100px) {
+    .burger-menu {
+        display: block;
+        .exit-menu {
+            display: none;
+        }
+        &.active {
+            .normal-menu {
+                display: none;
+            }
+            .exit-menu {
+                display: block;
+            }
+        }
+    }
+    .header__phone {
+        display: none;
+    }
+    .menu {
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
+}

@@ -20,4 +20,8 @@ $(function(){
       sectionSelector: '.page-section'
     });
 
+  $('.burger-menu').on('click', function() {
+    $('.burger-menu, .menu').toggleClass('active');
+  });
+
 });
