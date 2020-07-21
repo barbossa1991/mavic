@@ -21,7 +21,7 @@ $(function(){
     });
 
   $('.burger-menu').on('click', function() {
-    $('.burger-menu, .menu').toggleClass('active');
+    $('.burger-menu, .menu__list, .header__phone').toggleClass('active');
   });
 
 });
