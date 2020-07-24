@@ -49,3 +49,14 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .top {
+    &__title {
+      display: none;
+    }
+    &__wrapper {
+      align-items: center;
+    }
+  }
+}
