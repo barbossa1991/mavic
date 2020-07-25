@@ -1,3 +1,17 @@
+@media (max-width: 1220px) {
+  .specification__inner {
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .specification__item--center {
+    display: none;
+  }
+  .specification__box {
+    &::before {
+      display: none;
+    }
+  }
+}
 @media (max-width: 1100px) {
   .products__slider-text {
     left: -55px;
@@ -160,6 +174,15 @@
   .title {
     padding-top: 25px;
   }
+  .specification__box-4 {
+    margin-top: 50px;
+  }
+  .specification__box-2 {
+    margin-top: 28px;
+  }
+  .specification__inner {
+    display: block;
+  }
 }
 
 @media (max-width: 480px) {
@@ -188,6 +211,9 @@
   }
   .benefits__item-num {
     display: none;
+  }
+  .specification__inner {
+    margin-top: 0;
   }
 }
 
