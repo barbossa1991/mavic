@@ -162,6 +162,32 @@
     }
     padding: 20px 75px 20px 40px;
   }
+  .contacts__inner {
+    display: block;
+  }
+  .contacts__info-box {
+    margin-bottom: 0px;
+  }
+  .contacts__form {
+    max-width: 570px;
+    margin-right: 0;
+  }
+  .contacts__social-list {
+    flex-direction: inherit;
+    height: auto;
+  }
+  .contacts__social-link {
+    margin: 0 10px 0 10px;
+  }
+  .contacts__info-title {
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0 0 5px;
+  }
+  .contacts__form-textarea {
+    min-height: 115px;
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -233,12 +259,41 @@
   .questions__item-title::after {
     height: 55px;
   }
+  .questions__item-title.questions__item-title--2 {
+    padding: 13px 75px 15px 4px;
+  }
   .questions__item-text {
     padding: 0px 70px 5px 10px;
     line-height: 15px;
   }
   .questions__item-title {
     padding: 0px 75px 0px 4px;
+  }
+  .contacts__form-textarea {
+    min-height: 70px;
+    margin-bottom: 0px;
+  }
+  .contacts__form-btn {
+    font-size: 10px;
+    line-height: 5px;
+  }
+}
+
+@media (max-width: 380px) {
+  .contacts__info-box--3 {
+    display: none;
+  }
+  .products__text p {
+    margin-bottom: 10px;
+  }
+  .specification__box-1,
+  .specification__box-2,
+  .specification__box-3,
+  .specification__box-4 {
+    margin-top: 0;
+  }
+  .specification__box-text {
+    line-height: 15px;
   }
 }
 
@@ -252,5 +307,27 @@
   .products__text {
     font-size: 11px;
     line-height: 15px;
+  }
+  .questions__item-title.questions__item-title--2 {
+    padding: 0px 75px 0px 4px;
+  }
+  .contacts__form-input {
+    height: 35px;
+  }
+  .contacts__info-title {
+    margin: 0;
+  }
+  .contacts__form-textarea {
+    min-height: 64px;
+  }
+  .footer {
+    bottom: 37px;
+  }
+  .specification__box-text {
+    font-size: 12px;
+  }
+  .benefits__info-text {
+    font-size: 12px;
+    line-height: 14px;
   }
 }
