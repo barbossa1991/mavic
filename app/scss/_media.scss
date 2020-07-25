@@ -7,7 +7,7 @@
   }
   .title {
     margin-bottom: 0px;
-    padding-top: 25px;
+    padding-top: 150px;
   }
   .products__slider-box {
     padding-top: 0;
@@ -146,9 +146,6 @@
     &::before {
       display: none;
     }
-    img {
-      // max-width: 80%;
-    }
   }
   .benefits__info-title {
     width: 100%;
@@ -159,6 +156,9 @@
   .benefits__info-text {
     font-size: 13px;
     line-height: 15px;
+  }
+  .title {
+    padding-top: 25px;
   }
 }
 
@@ -172,18 +172,34 @@
   .title {
     font-size: 25px;
     padding-left: 10px;
+    padding-top: 0;
   }
   .products__text {
     font-size: 15px;
     line-height: 23px;
   }
-  .benefits__item {
-    display: block;
-  }
-  .benefits__info-text {
-    display: none;
+  .benefits__items {
+    padding-left: 0;
   }
   .benefits__item-img {
-    margin-right: 5px;
+    img {
+      display: none;
+    }
   }
+  .benefits__item-num {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .benefits__info-title {
+    line-height: 8px;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .products__text {
+    font-size: 11px;
+    line-height: 15px;
+}
 }
