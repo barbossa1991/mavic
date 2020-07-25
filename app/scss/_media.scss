@@ -230,6 +230,16 @@
   .specification__inner {
     margin-top: 0;
   }
+  .questions__item-title::after {
+    height: 55px;
+  }
+  .questions__item-text {
+    padding: 0px 70px 5px 10px;
+    line-height: 15px;
+  }
+  .questions__item-title {
+    padding: 0px 75px 0px 4px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -242,5 +252,5 @@
   .products__text {
     font-size: 11px;
     line-height: 15px;
-}
+  }
 }
