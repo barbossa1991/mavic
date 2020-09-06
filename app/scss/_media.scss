@@ -188,6 +188,10 @@
     min-height: 115px;
     margin-bottom: 0px;
   }
+  .header__info {
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (max-width: 767px) {
