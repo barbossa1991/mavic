@@ -14,7 +14,6 @@ $(function(){
   });
 
   $('#fullpage').fullpage({
-      //options here
       autoScrolling:true,
       scrollHorizontally: true,
       sectionSelector: '.page-section'
